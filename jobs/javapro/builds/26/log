@@ -1,0 +1,23 @@
+Started by user [8mha:////4B8lJWmGPptmP3PeMKS664JeaWT6yOYTG1I7GeAbMPl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mjeevan
+Running as SYSTEM
+Building remotely on [8mha:////4Ic2TLx/DT0wcGOqz7qPl3rDfdKzGp1UsdLyU0rT76tiAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 (java) in workspace /var/lib/jenkins/workspace/javapro
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/javapro/.git # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/jeevangowdar/hello-world-war.git # timeout=10
+Fetching upstream changes from https://github.com/jeevangowdar/hello-world-war.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/jeevangowdar/hello-world-war.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 157ee76ce127d16ae7e5b4d811b08f3df9871a37 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 157ee76ce127d16ae7e5b4d811b08f3df9871a37 # timeout=10
+Commit message: "Merge branch 'master' of github.com:efsavage/hello-world-war"
+First time build. Skipping changelog.
+[javapro] $ mvn install
+The JAVA_HOME environment variable is not defined correctly,
+this environment variable is needed to run this program.
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

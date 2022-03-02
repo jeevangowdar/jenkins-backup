@@ -1,0 +1,30 @@
+commit dae1c84a2cc768d88df209f2666c40435eb19790
+tree 7abcb24b45aae4c900337cd3aba0ebcc870f6760
+parent bd13b7c85bf6d03cf20c1918664feb44a9e624ec
+author Cloud User <ec2-user@ip-172-31-33-5.us-east-2.compute.internal> 2022-02-26 16:07:05 +0000
+committer Cloud User <ec2-user@ip-172-31-33-5.us-east-2.compute.internal> 2022-02-26 16:07:05 +0000
+
+    makefile
+
+
+:000000 100644 0000000000000000000000000000000000000000 920e693ab65218fd0c41f71a9bbbe96688f7bdcf A	Makefile
+commit bd13b7c85bf6d03cf20c1918664feb44a9e624ec
+tree c836d65b09f7529a7362a930326def2fae43623b
+parent f15235bd6f30584582e6b6c2a05fb3fbf85f7e28
+author Cloud User <ec2-user@ip-172-31-33-5.us-east-2.compute.internal> 2022-02-26 14:52:33 +0000
+committer Cloud User <ec2-user@ip-172-31-33-5.us-east-2.compute.internal> 2022-02-26 14:52:33 +0000
+
+    adding biggest2
+
+
+:100644 100644 21dbe0ff387e90be580b6802146051546d7619b4 3a9df21dfe2cc8510be485dc1dfe0b64bf0cbc01 M	big2.c
+commit f15235bd6f30584582e6b6c2a05fb3fbf85f7e28
+tree 16331eda3e3c4ef4018ca9c013dd07c11699b218
+parent 6119255bb2e1985299d58eb7c7f4be6e248a5930
+author Cloud User <ec2-user@ip-172-31-33-5.us-east-2.compute.internal> 2022-02-26 14:46:49 +0000
+committer Cloud User <ec2-user@ip-172-31-33-5.us-east-2.compute.internal> 2022-02-26 14:46:49 +0000
+
+    adding big2
+
+
+:000000 100644 0000000000000000000000000000000000000000 21dbe0ff387e90be580b6802146051546d7619b4 A	big2.c

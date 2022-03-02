@@ -1,0 +1,22 @@
+Started by user [8mha:////4B8lJWmGPptmP3PeMKS664JeaWT6yOYTG1I7GeAbMPl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mjeevan
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/javapro
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jeevangowdar/java-project.git
+ > /usr/bin/git init /var/lib/jenkins/workspace/javapro # timeout=10
+Fetching upstream changes from https://github.com/jeevangowdar/java-project.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/jeevangowdar/java-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/jeevangowdar/java-project.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 31279e0c7e4c2e8b0df53cf9ed25ac113e580666 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 31279e0c7e4c2e8b0df53cf9ed25ac113e580666 # timeout=10
+Commit message: "java"
+First time build. Skipping changelog.
+Finished: SUCCESS

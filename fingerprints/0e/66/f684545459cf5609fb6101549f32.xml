@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-26 11:23:49.948 UTC</timestamp>
+  <md5sum>0e66f684545459cf5609fb6101549f32</md5sum>
+  <fileName>Credential id=05102c6a-6291-48cc-9d9e-49f3947e3ce7 name=jenkins</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.6.1">
+      <timestamp>1645931011686</timestamp>
+      <nodeName>node2</nodeName>
+      <timestamp0>1645930895464</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.6.1">
+      <timestamp>1646199829017</timestamp>
+      <nodeName>node1</nodeName>
+      <timestamp0>1646120694789</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

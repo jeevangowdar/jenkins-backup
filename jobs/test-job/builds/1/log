@@ -1,0 +1,7 @@
+Started by user [8mha:////4B8lJWmGPptmP3PeMKS664JeaWT6yOYTG1I7GeAbMPl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mjeevan
+Running as SYSTEM
+Building remotely on [8mha:////4NmhA6j3ahNiF2f+NlDML5BhB+KU8Ds8yGyIAqbZkljIAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 (cproject) in workspace /var/lib/jenkins/workspace/test-job
+[test-job] $ /bin/sh -xe /tmp/jenkins8450416137751381761.sh
++ echo 'test complete'
+test complete
+Finished: SUCCESS

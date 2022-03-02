@@ -1,0 +1,24 @@
+Started by user [8mha:////4B8lJWmGPptmP3PeMKS664JeaWT6yOYTG1I7GeAbMPl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mjeevan
+Running as SYSTEM
+Building remotely on [8mha:////4NmhA6j3ahNiF2f+NlDML5BhB+KU8Ds8yGyIAqbZkljIAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /var/lib/jenkins/workspace/c-job
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/jeevangowdar/c_project.git # timeout=10
+Fetching upstream changes from https://github.com/jeevangowdar/c_project.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/jeevangowdar/c_project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision dae1c84a2cc768d88df209f2666c40435eb19790 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f dae1c84a2cc768d88df209f2666c40435eb19790 # timeout=10
+Commit message: "makefile"
+ > /usr/bin/git rev-list --no-walk 6119255bb2e1985299d58eb7c7f4be6e248a5930 # timeout=10
+[c-job] $ /bin/sh -xe /tmp/jenkins638798085042711332.sh
++ cd /var/lib/jenkins/workspace/c-job
++ make
+Makefile:2: *** missing separator (did you mean TAB instead of 8 spaces?).  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

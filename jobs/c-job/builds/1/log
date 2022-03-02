@@ -1,0 +1,22 @@
+Started by GitHub push by jeevangowdar
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/master
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jeevangowdar/c_project.git
+ > git init /var/lib/jenkins/workspace/master # timeout=10
+Fetching upstream changes from https://github.com/jeevangowdar/c_project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/jeevangowdar/c_project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jeevangowdar/c_project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6119255bb2e1985299d58eb7c7f4be6e248a5930 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6119255bb2e1985299d58eb7c7f4be6e248a5930 # timeout=10
+Commit message: "hellow world"
+First time build. Skipping changelog.
+Finished: SUCCESS

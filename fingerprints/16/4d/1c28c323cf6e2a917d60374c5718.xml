@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-27 09:53:18.42 UTC</timestamp>
+  <md5sum>164d1c28c323cf6e2a917d60374c5718</md5sum>
+  <fileName>com.squareup.okio:okio-1.6.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>jproject/dev.outlook.com:java-calendar-demo</string>
+      <ranges>10</ranges>
+    </entry>
+    <entry>
+      <string>jproject</string>
+      <ranges>10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,35 @@
+Started by GitHub push by jeevangowdar
+Running as SYSTEM
+Building remotely on [8mha:////4NmhA6j3ahNiF2f+NlDML5BhB+KU8Ds8yGyIAqbZkljIAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /var/lib/jenkins/workspace/c-job
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/jeevangowdar/c_project.git # timeout=10
+Fetching upstream changes from https://github.com/jeevangowdar/c_project.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/jeevangowdar/c_project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 9ef72fbb393fcdd022ae0a00a6098a08e6039015 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 9ef72fbb393fcdd022ae0a00a6098a08e6039015 # timeout=10
+Commit message: "hell"
+ > /usr/bin/git rev-list --no-walk 47d49c38d69bfb29200c9852b3b2dc4ef6b740f1 # timeout=10
+[c-job] $ /bin/sh -xe /tmp/jenkins5751778476787109482.sh
++ cd /var/lib/jenkins/workspace/c-job
++ rm -rf main.o
++ make
+gcc -c main.c
+main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ main() {hello();}
+ ^~~~
+main.c: In function ‘main’:
+main.c:2:9: warning: implicit declaration of function ‘hello’; did you mean ‘ftello’? [-Wimplicit-function-declaration]
+ main() {hello();}
+         ^~~~~
+         ftello
+gcc -c hello.c
+gcc -o ABC.exe main.o hello.o
++ rm -rf hello.o main.o
+Finished: SUCCESS

@@ -1,0 +1,57 @@
+Started by user [8mha:////4B8lJWmGPptmP3PeMKS664JeaWT6yOYTG1I7GeAbMPl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mjeevan
+Running as SYSTEM
+Building remotely on [8mha:////4Ic2TLx/DT0wcGOqz7qPl3rDfdKzGp1UsdLyU0rT76tiAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 (java) in workspace /var/lib/jenkins/workspace/javapro
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/javapro/.git # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/jeevangowdar/spring-security-jwt-example.git # timeout=10
+Fetching upstream changes from https://github.com/jeevangowdar/spring-security-jwt-example.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/jeevangowdar/spring-security-jwt-example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d4f72d757aaee67999b275a49dde30309d72f85f (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f d4f72d757aaee67999b275a49dde30309d72f85f # timeout=10
+Commit message: "Update README.md"
+ > /usr/bin/git rev-list --no-walk d4f72d757aaee67999b275a49dde30309d72f85f # timeout=10
+[javapro] $ mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.javatechie:spring-security-jwt-example >-------------
+[INFO] Building spring-security-jwt-example 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4H8LJB1DPUH13SFLbcpObQHPBxtVf2meTwtTC1pCevdYAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-security-jwt-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 0 resource
+[INFO] 
+[8mha:////4H8LJB1DPUH13SFLbcpObQHPBxtVf2meTwtTC1pCevdYAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-security-jwt-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /var/lib/jenkins/workspace/javapro/target/classes
+[INFO] -------------------------------------------------------------
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.381 s
+[INFO] Finished at: 2022-02-27T10:41:52Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project spring-security-jwt-example: Compilation failure
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4Li4woZjpBzJXZOnqrRgI6bfLI0KMq6f6koPu1SRktlHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

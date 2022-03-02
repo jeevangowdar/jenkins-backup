@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-27 09:53:18.61 UTC</timestamp>
+  <md5sum>51e15f798e69358cb893e38c50596b9b</md5sum>
+  <fileName>javax.servlet:jstl-1.2.jar</fileName>
+  <usages>
+    <entry>
+      <string>jproject/dev.outlook.com:java-calendar-demo</string>
+      <ranges>10</ranges>
+    </entry>
+    <entry>
+      <string>jproject</string>
+      <ranges>10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

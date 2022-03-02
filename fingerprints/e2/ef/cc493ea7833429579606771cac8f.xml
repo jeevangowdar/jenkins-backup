@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-27 09:53:18.65 UTC</timestamp>
+  <md5sum>e2efcc493ea7833429579606771cac8f</md5sum>
+  <fileName>com.google.code.gson:gson-2.6.1.jar</fileName>
+  <usages>
+    <entry>
+      <string>jproject/dev.outlook.com:java-calendar-demo</string>
+      <ranges>10</ranges>
+    </entry>
+    <entry>
+      <string>jproject</string>
+      <ranges>10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

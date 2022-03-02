@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-27 09:53:17.985 UTC</timestamp>
+  <original>
+    <name>jproject/dev.outlook.com:java-calendar-demo</name>
+    <number>10</number>
+  </original>
+  <md5sum>0e9d2f30b784e5c03ae7e5bdab6e2698</md5sum>
+  <fileName>dev.outlook.com:java-calendar-demo:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>jproject/dev.outlook.com:java-calendar-demo</string>
+      <ranges>10</ranges>
+    </entry>
+    <entry>
+      <string>jproject</string>
+      <ranges>10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
